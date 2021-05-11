@@ -12,7 +12,8 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 18px;
+		padding: 30px;
+		white-space: nowrap;
 	}
 
 	.navbar-logo {
@@ -42,13 +43,21 @@
 		margin-right: 5rem;
 	}
 
+	a {
+		text-decoration: none;
+		background: none;
+	}
+
 	.nav-links {
 		background: none;
 		letter-spacing: 0.1em;
-		text-decoration: none;
 		padding: 0.5rem;
 		text-transform: uppercase;
 		font-weight: 300;
+	}
+
+	.nav-links:hover {
+		color: #ec6465;
 	}
 
 	li {
@@ -58,10 +67,12 @@
 		font-size: 1.3rem;
 		font-weight: 600;
 		text-transform: uppercase;
+		text-decoration: none;
 	}
 
 	.menu-list {
 		background: none;
+		text-decoration: none;
 	}
 
 	.menu-icon {
@@ -78,6 +89,12 @@
 		background: none;
 		position: relative;
 		padding: 40px;
+		text-decoration: none;
+	}
+
+	a {
+		text-decoration: none;
+		background: none;
 	}
 
 	#logo {
@@ -86,6 +103,7 @@
 		font-family: KoHo;
 		color: #78cc87;
 		text-transform: uppercase;
+		text-decoration: none;
 	}
 
 	.nav-menu {
@@ -115,21 +133,19 @@
 		font-size: 1.3rem;
 		font-weight: 600;
 		text-transform: uppercase;
-		text-decoration: none;
 		padding: 50px;
 	}
 
 	.nav-links {
 		text-align: center;
-		padding: 2rem;
+		padding: 1.5rem;
 		width: 100%;
 		display: table;
 		font-size: 1.2rem;
-		text-decoration: none;
-		word-break: none;
 	}
 
 	.navbar-logo {
+		text-decoration: none;
 		position: absolute;
 		top: 0;
 		left: 0;

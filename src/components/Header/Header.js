@@ -14,14 +14,27 @@ export default function Header() {
 	return (
 		<div>
 			<nav className="navbar-items">
-				<h1 id="logo">Space Coachella</h1>
+				<a href="/">
+					<h1 id="logo">Space Coachella</h1>
+				</a>
 				<div className="menu-icon" onClick={showHide}>
 					{!menuList ? <GoIcons.GoThreeBars /> : <AiIcons.AiOutlineClose />}
 				</div>
 				<div className="menu-list">
 					<ul className={menuList ? "nav-menu active" : "nav-menu"}>
 						{MenuItems.map((item, index) => {
-							return <li key={index}>{item.title}</li>;
+							return (
+								<li key={index}>
+									<Link
+										to={item.url}
+										className={item.cName}
+										onClick={() => showHide(menuList)}
+										style={{ color: "inherit", textDecoration: "inherit" }}
+									>
+										{item.title}
+									</Link>
+								</li>
+							);
 						})}
 					</ul>
 				</div>

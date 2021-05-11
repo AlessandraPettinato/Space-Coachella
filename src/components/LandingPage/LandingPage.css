@@ -34,6 +34,7 @@
 	}
 	.popout {
 		background: none;
+		white-space: nowrap;
 	}
 
 	span {
