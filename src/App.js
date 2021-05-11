@@ -53,10 +53,10 @@ function App() {
 				<div>
 					<Header />
 					<Switch>
-						<Route path="/sofar" component={SoFar} />
+						<Route path="/sofar" render={() => <SoFar {...playlist} />} />
 						<Route exact path="/" component={LandingPage} />
+						<About />
 					</Switch>
-					<About />
 				</div>
 			</Router>
 		</div>
