@@ -12,11 +12,12 @@
 		grid-template-columns: 3fr 2fr;
 		grid-template-rows: 1fr 1fr 1fr;
 		height: auto;
-		padding: 18px;
+		padding: 30px;
 	}
 
 	.landing-caption,
-	.landing-intro {
+	.landing-intro,
+	.scroll {
 		background: none;
 		grid-column-start: 1;
 		margin-left: 0.5rem;
@@ -86,32 +87,27 @@
 		color: #ee7fc4;
 	}
 
-	.planet {
+	/* .planet {
 		display: none;
-	}
-}
+	} */
 
-@media screen and (max-width: 375px) {
-	.landing-page {
-		padding: 18px;
-		height: 100vh;
-	}
-
-	.landing-caption {
-		display: none;
-	}
-
-	/* .planet-container {
-		display: flex;
-		justify-content: center;
-		align-items: center;
+	.scroll-container {
+		display: grid;
+		grid-column-start: 2;
+		grid-row-start: 3;
 		padding: 50px;
+		justify-content: right;
+		background: none;
 	}
 
-	.planet {
-		display: block;
-		color: #78cc87;
+	.scroll {
 		font-size: 5rem;
+		color: #fbdd4b;
+		letter-spacing: 6px;
+		text-transform: uppercase;
+		align-self: end;
+		justify-self: end;
+		display: block;
 		animation-name: floating;
 		animation-duration: 3s;
 		animation-iteration-count: infinite;
@@ -128,7 +124,22 @@
 		100% {
 			transform: translate(0, -0px);
 		}
-	} */
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.landing-page {
+		padding: 18px;
+		height: 100vh;
+	}
+
+	.landing-caption {
+		display: none;
+	}
+
+	.scroll-container {
+		display: none;
+	}
 
 	.landing-intro {
 		font-size: 1.4rem;

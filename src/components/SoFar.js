@@ -1,7 +1,7 @@
-export default function SoFar() {
+export default function SoFar({ playlist }) {
 	return (
 		<div>
-			<h1>Hello from SoFar</h1>
+			<h1>{playlist}</h1>
 		</div>
 	);
 }
