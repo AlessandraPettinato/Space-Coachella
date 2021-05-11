@@ -84,21 +84,57 @@
 		text-align: start;
 		color: #ee7fc4;
 	}
+
+	.planet {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 375px) {
 	.landing-page {
 		padding: 18px;
+		height: 100vh;
 	}
 
 	.landing-caption {
 		display: none;
 	}
 
+	/* .planet-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 50px;
+	}
+
+	.planet {
+		display: block;
+		color: #78cc87;
+		font-size: 5rem;
+		animation-name: floating;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+	}
+
+	@keyframes floating {
+		0% {
+			transform: translate(0, 0px);
+		}
+		50% {
+			transform: translate(0, 15px);
+		}
+		100% {
+			transform: translate(0, -0px);
+		}
+	} */
+
 	.landing-intro {
 		font-size: 1.4rem;
 		justify-self: center;
 		align-self: center;
 		text-align: justify;
+		color: #ee7fc4;
+		margin: 1.3rem;
 	}
 }

@@ -1,4 +1,5 @@
 import "./LandingPage.css";
+// import { GiRingedPlanet } from "react-icons/gi";
 
 export default function LandingPage() {
 	return (
@@ -23,6 +24,9 @@ export default function LandingPage() {
 						<span className="pink">a</span>
 					</div>
 				</h1>
+				{/* <div className="planet-container">
+					<GiRingedPlanet className="planet" />
+				</div> */}
 
 				<p className="landing-intro">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
