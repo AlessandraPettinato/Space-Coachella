@@ -77,12 +77,12 @@
 	.navbar-items {
 		background: none;
 		position: relative;
-		padding: 40px;
+		padding: 60px;
 	}
 
 	#logo {
 		background: none;
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 		font-family: KoHo;
 		color: #78cc87;
 		text-transform: uppercase;

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (min-width: 376px) {
+	.landing-page {
+		display: grid;
+		grid-template-columns: 3fr 2fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		height: auto;
+		padding: 18px;
+	}
+
+	.landing-caption,
+	.landing-intro {
+		background: none;
+		grid-column-start: 1;
+		margin-left: 0.5rem;
+		font-family: KoHo;
+	}
+
+	.landing-caption {
+		grid-row-start: 2;
+		font-size: 5rem;
+		justify-self: start;
+		align-self: end;
+		margin-bottom: 2rem;
+		text-transform: uppercase;
+		letter-spacing: 6px;
+	}
+	.popout {
+		background: none;
+	}
+
+	span {
+		background: none;
+		transition: all 0.3s ease 0s;
+		cursor: pointer;
+		display: inline-block;
+	}
+
+	span:hover {
+		transform: translateY(-7px);
+		font-size: 6rem;
+	}
+
+	.pink:hover {
+		color: #ee7fc4;
+	}
+
+	.blue:hover {
+		color: #51b9f9;
+	}
+
+	.green:hover {
+		color: #78cc87;
+	}
+
+	.candy:hover {
+		color: #ec6465;
+	}
+
+	.yellow:hover {
+		color: #fbdd4b;
+	}
+
+	.break {
+		padding-left: 20px;
+	}
+
+	.break:hover {
+		color: #51b9f9;
+	}
+
+	.landing-intro {
+		grid-row-start: 3;
+		font-size: 2.2rem;
+		justify-self: start;
+		align-self: center;
+		text-align: start;
+		color: #ee7fc4;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.landing-page {
+		padding: 18px;
+	}
+
+	.landing-caption {
+		display: none;
+	}
+
+	.landing-intro {
+		font-size: 1.4rem;
+		justify-self: center;
+		align-self: center;
+		text-align: justify;
+	}
+}
