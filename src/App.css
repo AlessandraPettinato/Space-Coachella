@@ -1,6 +1,13 @@
 @import "./Color-variables.css";
 
 .App {
+
   text-align: center;
 }
 
+.marsphoto {
+  margin-top: 30%;
+  width: 130rem;
+  transform: translate(300px, 100px);
+  overflow-y: hidden;
+}

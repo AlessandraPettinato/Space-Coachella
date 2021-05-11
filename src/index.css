@@ -1,7 +1,9 @@
 @import "./Color-variables.css";
 
-* {
+html {
   background: linear-gradient(90deg, rgba(54,25,90,1) 2%, rgba(7,16,55,1) 100%);
+  /* box-shadow: 1px 1px 20000px #ec64649d inset; */
+  overflow-x: hidden;
 }
 
 body {
