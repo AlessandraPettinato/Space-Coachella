@@ -46,4 +46,15 @@
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+  }
+
+  .percyParty {
+    position:absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 2;
   }

@@ -4,7 +4,7 @@ import "./App.css";
 import { Credentials } from "./Credentials";
 import axios from "axios";
 import Header from "./components/Header/Header";
-import About from "./components/About";
+import Mars from './assets/Mars.svg'
 import LandingPage from "./components/LandingPage/LandingPage";
 import SoFar from "./components/SoFar";
 
@@ -56,10 +56,9 @@ function App() {
 				<div>
 					<Header />
 					<Switch>
-						<Route path="/sofar" component={SoFar} />
+						<Route path="/sofar" render={()=> <SoFar partyPhotos={partyPhotos}/>} />
 						<Route exact path="/" component={LandingPage} />
 					</Switch>
-					<About />
 				</div>
 			</Router>
 		</div>

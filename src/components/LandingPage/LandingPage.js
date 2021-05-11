@@ -1,4 +1,7 @@
 import "./LandingPage.css";
+import About from "./About"
+import "./About.css"
+import Mars from './../../assets/Mars.svg'
 // import { GiRingedPlanet } from "react-icons/gi";
 
 export default function LandingPage() {
@@ -35,6 +38,11 @@ export default function LandingPage() {
 					id.
 				</p>
 			</div>
+			<div className="landing-container">
+			<About />
+			<img src={Mars} alt="mars"/>
+			</div>
+		
 		</div>
 	);
 }

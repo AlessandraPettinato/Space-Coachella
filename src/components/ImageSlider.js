@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./ImageSlider.css"
+import PercyParty from "./../assets/PercyParty.svg"
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 const ImageSlider = ({partyPhotos}) => {
@@ -10,7 +11,11 @@ const ImageSlider = ({partyPhotos}) => {
             <div className={index === current ? 'slide active' : 'slide'}
             key={index}> 
                     {index === current && (
-              <img src={item.img_src} alt='travel image' className='image' />
+                        <div> 
+                        <img src={item.img_src} alt='travel image' className='image' />
+                        <img className="percyParty" src={PercyParty} alt="percy"/>
+                        </div>
+
             )}
             </div>
          )
