@@ -43,6 +43,7 @@ export default function LandingPage() {
 			<About />
 			<img src={Mars} alt="mars"/>
 			</div>
+		
 		</div>
 	);
 }
