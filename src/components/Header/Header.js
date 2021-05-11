@@ -29,7 +29,7 @@ export default function Header() {
 										to={item.url}
 										className={item.cName}
 										onClick={() => showHide(menuList)}
-										style={{ textDecoration: "none" }}
+										style={{ color: "inherit", textDecoration: "inherit" }}
 									>
 										{item.title}
 									</Link>
