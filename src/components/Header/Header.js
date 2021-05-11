@@ -4,7 +4,7 @@ import * as AiIcons from "react-icons/ai";
 import { MenuItems } from "./MenuItems";
 
 import "./Header.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Header() {
 	const [menuList, setMenuList] = useState(false);
@@ -14,7 +14,9 @@ export default function Header() {
 	return (
 		<div>
 			<nav className="navbar-items">
-				<h1 id="logo">Space Coachella</h1>
+				<a href="/">
+					<h1 id="logo">Space Coachella</h1>
+				</a>
 				<div className="menu-icon" onClick={showHide}>
 					{!menuList ? <GoIcons.GoThreeBars /> : <AiIcons.AiOutlineClose />}
 				</div>
@@ -23,13 +25,14 @@ export default function Header() {
 						{MenuItems.map((item, index) => {
 							return (
 								<li key={index}>
-									{/* <Link
+									<Link
 										to={item.url}
 										className={item.cName}
 										onClick={() => showHide(menuList)}
-									> */}
-									{item.title}
-									{/* </Link> */}
+										style={{ color: "inherit", textDecoration: "inherit" }}
+									>
+										{item.title}
+									</Link>
 								</li>
 							);
 						})}

@@ -1,10 +1,12 @@
-import { useState, useEffect } from 'react';
-import './App.css';
-import { Credentials } from './Credentials';
-import axios from 'axios';
-import Header from "./components/Header/Header"
-import SoFar from "./components/SoFar"
-import Mars from "./assets/Mars.svg"
+import { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
+import { Credentials } from "./Credentials";
+import axios from "axios";
+import Header from "./components/Header/Header";
+import About from "./components/About";
+import LandingPage from "./components/LandingPage/LandingPage";
+import SoFar from "./components/SoFar";
 
 function App() {
  
@@ -48,14 +50,20 @@ function App() {
 
   // } , [])
 
-  return (
-    <div className="App">
- 
-    <Header />
-    <SoFar partyPhotos={partyPhotos}  />
-    {/* <img className="marsphoto" src={Mars} alt='bg'/> */}
-    </div>
-  );
+	return (
+		<div className="App">
+			<Router>
+				<div>
+					<Header />
+					<Switch>
+						<Route path="/sofar" component={SoFar} />
+						<Route exact path="/" component={LandingPage} />
+					</Switch>
+					<About />
+				</div>
+			</Router>
+		</div>
+	);
 }
 
 export default App;
