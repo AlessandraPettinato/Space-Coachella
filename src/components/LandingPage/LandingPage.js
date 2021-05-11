@@ -3,6 +3,7 @@ import About from "./About"
 import "./About.css"
 import Mars from './../../assets/Mars.svg'
 // import { GiRingedPlanet } from "react-icons/gi";
+import { IoMdArrowDown } from "react-icons/io";
 
 export default function LandingPage() {
 	return (
@@ -27,9 +28,6 @@ export default function LandingPage() {
 						<span className="pink">a</span>
 					</div>
 				</h1>
-				{/* <div className="planet-container">
-					<GiRingedPlanet className="planet" />
-				</div> */}
 
 				<p className="landing-intro">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
@@ -37,12 +35,21 @@ export default function LandingPage() {
 					vel sem nisi. Nunc sodales interdum lorem, nec faucibus est volutpat
 					id.
 				</p>
+				<div className="scroll-container">
+					<IoMdArrowDown className="scroll" />
+				</div>
 			</div>
+<<<<<<< HEAD
 			<div className="landing-container">
 			<About />
 			<img src={Mars} alt="mars"/>
 			</div>
 		
+=======
+			{/* <div className="planet-container">
+						{menuList ? <GiRingedPlanet className="planet" /> : null}
+					</div> */}
+>>>>>>> a3ffa81a5bcfbeb061a830afae42846a5c980f73
 		</div>
 	);
 }

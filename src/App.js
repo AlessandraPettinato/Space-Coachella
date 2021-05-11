@@ -4,7 +4,6 @@ import "./App.css";
 import { Credentials } from "./Credentials";
 import axios from "axios";
 import Header from "./components/Header/Header";
-import Mars from './assets/Mars.svg'
 import LandingPage from "./components/LandingPage/LandingPage";
 import SoFar from "./components/SoFar";
 
