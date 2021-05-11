@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import { Credentials } from './Credentials';
 import axios from 'axios';
+import Header from "./components/Header/Header"
 
 function App() {
  
@@ -45,7 +46,7 @@ function App() {
   return (
     <div className="App">
  
-    <h1>Hello</h1>
+    <Header />
     </div>
   );
 }
