@@ -127,12 +127,20 @@
 	}
 }
 
-@media screen and (max-width: 375px) {
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
 	.landing-page {
 		padding: 18px;
-		height: 100vh;
+		height: 30vh;
 	}
 
+	.landing-container {
+		overflow: hidden;
+	}
 	.landing-caption {
 		display: none;
 	}
@@ -149,4 +157,6 @@
 		color: #ee7fc4;
 		margin: 1.3rem;
 	}
+  
+
 }

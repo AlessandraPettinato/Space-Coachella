@@ -39,17 +39,11 @@ export default function LandingPage() {
 					<IoMdArrowDown className="scroll" />
 				</div>
 			</div>
-<<<<<<< HEAD
 			<div className="landing-container">
 			<About />
 			<img src={Mars} alt="mars"/>
 			</div>
 		
-=======
-			{/* <div className="planet-container">
-						{menuList ? <GiRingedPlanet className="planet" /> : null}
-					</div> */}
->>>>>>> a3ffa81a5bcfbeb061a830afae42846a5c980f73
 		</div>
 	);
 }
