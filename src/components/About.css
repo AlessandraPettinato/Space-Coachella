@@ -1,0 +1,15 @@
+.robo-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pic-ginny {
+    width: 300px;
+  
+}
+
+.pic-percy {
+    width: 300px;
+}
+
