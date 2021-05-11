@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import { Credentials } from "./Credentials";
 import axios from "axios";
 import Header from "./components/Header/Header";
 import LandingPage from "./components/LandingPage/LandingPage";
+import SoFar from "./components/SoFar";
 
 function App() {
 	const [token, setToken] = useState("");
@@ -46,8 +48,15 @@ function App() {
 
 	return (
 		<div className="App">
-			<Header />
-			<LandingPage />
+			<Router>
+				<div>
+					<Header />
+					<Switch>
+						<Route path="/sofar" component={SoFar} />
+						<Route exact path="/" component={LandingPage} />
+					</Switch>
+				</div>
+			</Router>
 		</div>
 	);
 }
