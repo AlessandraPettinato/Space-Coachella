@@ -4,7 +4,7 @@ import * as AiIcons from "react-icons/ai";
 import { MenuItems } from "./MenuItems";
 
 import "./Header.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Header() {
 	const [menuList, setMenuList] = useState(false);
@@ -21,17 +21,7 @@ export default function Header() {
 				<div className="menu-list">
 					<ul className={menuList ? "nav-menu active" : "nav-menu"}>
 						{MenuItems.map((item, index) => {
-							return (
-								<li key={index}>
-									{/* <Link
-										to={item.url}
-										className={item.cName}
-										onClick={() => showHide(menuList)}
-									> */}
-									{item.title}
-									{/* </Link> */}
-								</li>
-							);
+							return <li key={index}>{item.title}</li>;
 						})}
 					</ul>
 				</div>
