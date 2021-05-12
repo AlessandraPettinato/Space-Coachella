@@ -38,10 +38,10 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Alessandra Pettinato - [Github](https://github.com/AlessandraPettinato) [LinkedIn] (https://www.linkedin.com/in/alessandra-pettinato/)
+Alessandra Pettinato - [Github](https://github.com/AlessandraPettinato) [LinkedIn](https://www.linkedin.com/in/alessandra-pettinato/)
 
-Isabel Mehlmann - [Github](https://github.com/Pits111) [LinkedIn] (https://www.linkedin.com/in/isabelmehlmann/)
+Isabel Mehlmann - [Github](https://github.com/Pits111) [LinkedIn](https://www.linkedin.com/in/isabelmehlmann/)
 
-Anca Gheorghe - [Github](https://github.com/anca2196) [LinhedIn] (https://www.linkedin.com/in/anca-laura-gheorghe/)
+Anca Gheorghe - [Github](https://github.com/anca2196) [LinhedIn](https://www.linkedin.com/in/anca-laura-gheorghe/)
 
 
