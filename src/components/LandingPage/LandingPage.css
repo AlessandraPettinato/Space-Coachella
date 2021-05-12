@@ -38,14 +38,15 @@
 		white-space: nowrap;
 	}
 
-	span {
+	.letter {
 		background: none;
 		transition: all 0.3s ease 0s;
 		cursor: pointer;
 		display: inline-block;
+		color: white;
 	}
 
-	span:hover {
+	.letter:hover {
 		transform: translateY(-7px);
 		font-size: 6rem;
 	}
@@ -87,9 +88,18 @@
 		color: #ee7fc4;
 	}
 
-	/* .planet {
-		display: none;
-	} */
+	span.green-text {
+		color: #78cc87;
+	}
+	span.blue-text{
+		color: #51b9f9;
+	}
+	span.yellow-text {
+		color: #fbdd4b;
+	}
+	span.candy-text{
+		color: #ec6465;
+	}
 
 	.scroll-container {
 		display: grid;
