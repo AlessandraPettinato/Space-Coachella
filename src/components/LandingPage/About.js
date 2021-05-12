@@ -7,18 +7,21 @@ const About = () => {
         <> 
             <div className="robo-container">
             <div class="item">
-                <div class="polaroid"><img className="pic-ginny polaroid"
+                <div class="polaroid"><img className="pic-ginny"
                     src="https://images2.imgbox.com/c3/97/0ltuiBp2_o.png"
                     alt="robot-ginny"
                 />
+                <div class="caption">Ginny</div>
                 </div>
-                
                 </div>
-                
-                {/* <img className="pic-percy polaroid"
+                <div class="item">
+                <div class="polaroid"><img className="pic-percy"
                     src="https://images2.imgbox.com/94/04/cF0bLZeX_o.png"
                     alt="robot-percy"  
-                /> */}
+                /> 
+                <div class="caption">Percy</div>
+                </div>
+                </div>
         </div>
         </>
     )
