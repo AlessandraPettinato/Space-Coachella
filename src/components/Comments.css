@@ -1,0 +1,171 @@
+@media screen and (min-width: 376px) {
+	.comment-section {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2.5rem;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.embed-player {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.soFar-container {
+		display: flex;
+		flex-flow: column;
+		padding-bottom: 3rem;
+	}
+
+	.main-caption {
+		display: flex;
+		text-transform: uppercase;
+		justify-content: center;
+		letter-spacing: 6px;
+		margin: 3rem;
+		color: #ffff;
+	}
+
+	span {
+		background: none;
+		transition: all 0.3s ease 0s;
+		cursor: pointer;
+		display: inline-block;
+	}
+
+	span:hover {
+		transform: translateY(-7px);
+		font-size: 6rem;
+	}
+
+	.pink:hover {
+		color: #ee7fc4;
+	}
+
+	.blue:hover {
+		color: #51b9f9;
+	}
+
+	.green:hover {
+		color: #78cc87;
+	}
+
+	.candy:hover {
+		color: #ec6465;
+	}
+
+	.yellow:hover {
+		color: #fbdd4b;
+	}
+
+	.break {
+		padding-left: 20px;
+	}
+
+	.break:hover {
+		color: #51b9f9;
+	}
+
+	h5 {
+		font-size: 1.2rem;
+	}
+
+	h3 {
+		font-size: 1rem;
+		padding-top: 0.3rem;
+		font-weight: 300;
+	}
+
+	br {
+		margin-top: 15px;
+	}
+	.comment-card {
+		grid-area: 1 / 1;
+		height: 20vh;
+		width: 40vw;
+		background: rgba(249, 198, 26, 0.88);
+		display: flex;
+		position: relative;
+		flex-flow: column;
+		justify-content: flex-start;
+		align-items: center;
+		padding: 30px;
+		color: #000;
+		text-transform: uppercase;
+		font-size: 2em;
+		font-weight: 900;
+		box-shadow: 0 10px 30px -3px rgba(0, 0, 0, 0.1);
+	}
+
+	div.comment-card {
+		transform: scale(0.8, 0.8);
+	}
+
+	.comment-card:hover {
+		transform: scale(1, 1) rotate(-20deg) !important;
+		transition: all 0.35s;
+	}
+
+	.hide {
+		display: none;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	.soFar-container {
+		padding-bottom: 3rem;
+	}
+
+	.comment-section {
+		display: flex;
+		flex-direction: column;
+		gap: 2.5rem;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.embed-player {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	h5 {
+		font-size: 1.1rem;
+	}
+
+	h3 {
+		font-size: 0.9rem;
+		padding-top: 0.3rem;
+		font-weight: 300;
+	}
+
+	.comment-card {
+		grid-area: 1 / 1;
+		height: 23vh;
+		width: 85vw;
+		background: rgba(249, 198, 26, 0.88);
+		display: flex;
+		flex-flow: column;
+		justify-content: flex-start;
+		align-items: center;
+		padding: 30px;
+		color: #000;
+		text-transform: uppercase;
+		font-size: 2em;
+		font-weight: 900;
+		box-shadow: 0 10px 30px -3px rgba(0, 0, 0, 0.1);
+	}
+
+	.main-caption {
+		display: flex;
+		text-transform: uppercase;
+		justify-content: center;
+		white-space: pre-wrap;
+		color: #ffff;
+		letter-spacing: 3px;
+		margin-top: 2rem;
+	}
+}

@@ -9,6 +9,7 @@ import SoFar from "./components/SoFar";
 import ComingNext from "./components/ComingNext";
 
 function App() {
+	const [token, setToken] = useState("");
 	const [partyPhotos, setPartyPhotos] = useState([]);
 	const [playlist, setPlaylist] = useState({
 		selectedPlaylist: "",
