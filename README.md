@@ -19,6 +19,13 @@
 
 The party never stops on Mars! Come see what the two rovers, Ginny and Percy, are up to!
 
+<!-- PROJECT LOGO -->
+<br />
+    <p> ~~~ Third place winner in the Wild Code School Hackathon ~~~ </p>
+    <a href="https://www.wildcodeschool.com/en-GB"><p> Wild Code School</p></a>
+    <img src="assets/bronze.png" alt="Logo" align="center" width="80" height="80">
+
+
 ### Built With
 
 
@@ -38,10 +45,10 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Alessandra Pettinato - [Github](https://github.com/AlessandraPettinato) [LinkedIn](https://www.linkedin.com/in/alessandra-pettinato/)
+Alessandra Pettinato - [Github](https://github.com/AlessandraPettinato) / [LinkedIn](https://www.linkedin.com/in/alessandra-pettinato/)
 
-Isabel Mehlmann - [Github](https://github.com/Pits111) [LinkedIn](https://www.linkedin.com/in/isabelmehlmann/)
+Isabel Mehlmann - [Github](https://github.com/Pits111) / [LinkedIn](https://www.linkedin.com/in/isabelmehlmann/)
 
-Anca Gheorghe - [Github](https://github.com/anca2196) [LinhedIn](https://www.linkedin.com/in/anca-laura-gheorghe/)
+Anca Gheorghe - [Github](https://github.com/anca2196) / [LinhedIn](https://www.linkedin.com/in/anca-laura-gheorghe/)
 
 
