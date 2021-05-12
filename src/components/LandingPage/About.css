@@ -62,5 +62,19 @@ and (orientation: portrait) {
     display: flex;
     flex-direction: column;
   }
+   .polaroid{
+    width:80vw;
+    height:30vh;
+  }
+  img.pic-ginny {
+    width: 70vw;
+      position: relative;
+      top:20px
+    }
+    img.pic-percy { 
+      width: 70vw;
+      position: relative;
+      top:20px
+    }
 
 }
