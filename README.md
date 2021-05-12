@@ -39,8 +39,9 @@ Contributions are what make the open source community such an amazing place to b
 ## Contact
 
 Alessandra Pettinato - [Github](https://github.com/AlessandraPettinato)
+
 Isabel Mehlmann - [Github](https://github.com/Pits111)
+
 Anca Gheorghe - [Github](https://github.com/anca2196)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
