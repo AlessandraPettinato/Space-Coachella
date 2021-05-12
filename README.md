@@ -23,7 +23,8 @@ The party never stops on Mars! Come see what the two rovers, Ginny and Percy, ar
 <br />
     <p> ~~~ Third place winner in the Wild Code School Hackathon ~~~ </p>
     <a href="https://www.wildcodeschool.com/en-GB"><p> Wild Code School</p></a>
-    <img src="assets/bronze.png" alt="Logo" align="center" width="80" height="80">
+
+![Prize](src/assets.prize.png)
 
 
 ### Built With
