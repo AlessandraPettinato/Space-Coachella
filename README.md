@@ -15,9 +15,9 @@
 
 ## About The Project
 
-[![Product Name Screen Shot](src/assets/Poster.png)
+[Product Name Screen Shot](src/assets/Poster.png)
 
-The party never stops on Mars! Come see what the two rovers Ginny and Percy are up to!
+The party never stops on Mars! Come see what the two rovers, Ginny and Percy, are up to!
 
 ### Built With
 
