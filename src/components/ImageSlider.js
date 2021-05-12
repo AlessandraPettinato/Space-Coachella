@@ -12,7 +12,7 @@ const ImageSlider = ({partyPhotos}) => {
             key={index}> 
                     {index === current && (
                         <div> 
-                        <img src={item.img_src} alt='travel image' className='image' />
+                        <img src={item.img_src} alt='travel' className='image' />
                         <img className="percyParty" src={PercyParty} alt="percy"/>
                         </div>
 
