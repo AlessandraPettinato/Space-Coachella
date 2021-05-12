@@ -30,8 +30,8 @@ export default function LandingPage() {
 				</h1>
 
 				<p className="landing-intro">
-				 Welcome to the <span className="green-text"> biggest party </span> in the entire galaxy! <span className="blue-text">What, you thought Mars would be boring?</span> Please! These <span className="yellow-text">2 dancing legends </span>  don't need food or sleep, so <span className="candy-text">the party never ends! </span> 
-					They are ...
+				 Welcome to the <span className="green-text"> biggest party </span> in the entire galaxy! <span className="blue-text">What, you thought Mars would be boring?</span> <span className="green-text"> Please! </span> <span className="yellow-text">These 2 dancing legends don't need food or sleep, </span><span> so the party never ends! </span> 
+					<span className="candy-text">They are...</span>
 				</p>
 				<div className="scroll-container">
 					<IoMdArrowDown className="scroll" />
