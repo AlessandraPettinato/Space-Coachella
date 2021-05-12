@@ -11,29 +11,27 @@ export default function LandingPage() {
 			<div className="landing-page">
 				<h1 className="landing-caption">
 					<div className="popout">
-						<span className="pink">S</span>
-						<span className="blue">p</span>
-						<span className="green">a</span>
-						<span className="yellow">c</span>
-						<span className="candy">e</span>
+						<span className="pink letter">S</span>
+						<span className="blue letter">p</span>
+						<span className="green letter">a</span>
+						<span className="yellow letter">c</span>
+						<span className="candy letter">e</span>
 
-						<span className="break">C</span>
-						<span className="green">o</span>
-						<span className="blue">a</span>
-						<span className="pink">c</span>
-						<span className="candy">h</span>
-						<span className="yellow">e</span>
-						<span className="green">l</span>
-						<span className="blue">l</span>
-						<span className="pink">a</span>
+						<span className="break letter">C</span>
+						<span className="green letter">o</span>
+						<span className="blue letter">a</span>
+						<span className="pink letter">c</span>
+						<span className="candy letter">h</span>
+						<span className="yellow letter">e</span>
+						<span className="green letter">l</span>
+						<span className="blue letter">l</span>
+						<span className="pink letter">a</span>
 					</div>
 				</h1>
 
 				<p className="landing-intro">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-					malesuada gravida metus et volutpat. Phasellus id laoreet lacus. Fusce
-					vel sem nisi. Nunc sodales interdum lorem, nec faucibus est volutpat
-					id.
+				 Welcome to the <span className="green-text"> biggest party </span> in the entire galaxy! <span className="blue-text">What, you thought Mars would be boring?</span> <span className="green-text"> Please! </span> <span className="yellow-text">These 2 dancing legends don't need food or sleep, </span><span> so the party never ends! </span> 
+					<span className="candy-text">They are...</span>
 				</p>
 				<div className="scroll-container">
 					<IoMdArrowDown className="scroll" />
