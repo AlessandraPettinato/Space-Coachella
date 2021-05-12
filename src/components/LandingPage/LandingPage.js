@@ -41,7 +41,7 @@ export default function LandingPage() {
 			</div>
 			<div className="landing-container">
 			<About />
-			<img src={Mars} alt="mars"/>
+			<img className="marsphoto" src={Mars} alt="mars"/>
 			</div>
 		
 		</div>
