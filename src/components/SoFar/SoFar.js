@@ -9,6 +9,7 @@ const SoFar = ({ partyPhotos }) => {
 				<div className="embed-player">
 					<h1 className="so-far-title1"> <p className="candy-text">Take a look at </p> <p className="pink-text">our </p> <p className="green-text"> alien </p>  <p className="blue-text">playlist...</p></h1>
 					<iframe
+						title="playlist"
 						src="https://open.spotify.com/embed/playlist/2sjNT7udCWklujkW3ipMj0"
 						width="300"
 						height="380"
