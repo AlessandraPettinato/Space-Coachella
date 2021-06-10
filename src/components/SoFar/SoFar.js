@@ -4,9 +4,9 @@ import "./SoFar.css"
 
 const SoFar = ({ partyPhotos }) => {
 	return (
-		<div className="soFar-container">
+		<div classname="soFar-container">
 			<div>
-				<div className="embed-player">
+				<div classname="embed-player">
 					<h1 className="so-far-title1"> <p className="candy-text">Take a look at </p> <p className="pink-text">our </p> <p className="green-text"> alien </p>  <p className="blue-text">playlist...</p></h1>
 					<iframe
 						title="playlist"
