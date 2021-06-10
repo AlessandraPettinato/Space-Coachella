@@ -4,10 +4,12 @@ import "./SoFar.css"
 
 const SoFar = ({ partyPhotos }) => {
 	return (
-		<div className="soFar-container">
+		<div classname="soFar-container">
+			<div className="main-caption lookat">
+			<h1 className="so-far-title1"> <p className="candy-text">Take a look at </p> <p className="pink-text">our </p> <p className="green-text"> alien </p>  <p className="blue-text">playlist...</p></h1>
+			</div>
 			<div>
 				<div className="embed-player">
-					<h1 className="so-far-title1"> <p className="candy-text">Take a look at </p> <p className="pink-text">our </p> <p className="green-text"> alien </p>  <p className="blue-text">playlist...</p></h1>
 					<iframe
 						title="playlist"
 						src="https://open.spotify.com/embed/playlist/2sjNT7udCWklujkW3ipMj0"
@@ -23,7 +25,7 @@ const SoFar = ({ partyPhotos }) => {
 				<div className="main-caption">
 				
 					<h1>
-					<p className="candy-text">...and checkout </p>
+					<p className="candy-text so-far-title1">...and checkout </p>
 					<br></br>
 						<span className="pink">P</span>
 						<span className="blue">e</span>
