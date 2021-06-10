@@ -1,0 +1,34 @@
+.so-far-title1{
+    color: white;
+    width: 30%;
+    margin:5%;
+}
+
+.embed-player{
+margin:0%;
+padding: 4%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+}
+
+p.green-text {
+    color: #78cc87;
+    display: inline;
+}
+
+p.candy-text{
+    color: #ec6465;
+    display: inline;
+}
+
+p.blue-text{
+    color: #51b9f9;
+    display: inline;
+}
+p.pink-text {
+    color: #ee7fc4;
+    display: inline;
+
+}

@@ -1,8 +1,17 @@
-@import "./../Color-variables.css";
+@import "./../../Color-variables.css";
 
 h1.coming-title {
     color: var(--pink-accent);
     font-size: 3em;
+}
+
+.artist {
+  width: 250px;
+  margin-right: 2%;
+}
+
+.artist-name {
+  text-align: center;
 }
 
 .wrapper {
@@ -28,6 +37,7 @@ h1.coming-title {
     font-weight: 900;
     backface-visibility: hidden;
     box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);
+    text-align: center;
   }
   
   h1 {

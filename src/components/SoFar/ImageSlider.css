@@ -1,4 +1,4 @@
-@import "./../Color-variables.css";
+@import "./../../Color-variables.css";
 
 .embed-player {
 	padding: 3rem;
@@ -61,6 +61,7 @@
 
 .percyParty {
 	position: absolute;
+	transition-duration: 5s ease-in;
 	top: 80px;
 	left: 300px;
 	z-index: 2;
@@ -78,11 +79,13 @@
 
 	.percyParty {
 		position: absolute;
+		transition-duration: 3s ease;
 		top: 100px;
 		left: 20vw;
 		width: 40vw;
 		z-index: 2;
 	}
+
 
 	.embed-player {
 		padding: 1rem;
