@@ -1,3 +1,13 @@
+  <p align="center">
+
+    <a href="https://spacecoachella.netlify.app" />View Demo</a>
+    ·
+    <a href="https://github.com/anca2196/Space-Coachella/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/anca2196/Space-Coachella/issues">Request Feature</a>
+  </p>
+</p>
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
