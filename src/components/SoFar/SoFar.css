@@ -1,7 +1,7 @@
 .so-far-title1{
     color: white;
-    width: 30%;
-    margin:5%;
+    width: 100%;
+    margin-bottom: 8%;
 }
 
 .embed-player{
@@ -18,7 +18,7 @@ p.green-text {
     display: inline;
 }
 
-p.candy-text{
+p.candy-text, h2.candy-text{
     color: #ec6465;
     display: inline;
 }
@@ -32,3 +32,9 @@ p.pink-text {
     display: inline;
 
 }
+
+h1.so-far-title1 {
+    font-size: 1.5rem;
+}
+
+
