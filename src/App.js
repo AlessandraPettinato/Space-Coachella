@@ -8,7 +8,6 @@ import ComingNext from "./components/ComingNext/ComingNext.js";
 
 function App() {
 	const [partyPhotos, setPartyPhotos] = useState([]);
-	const [nextArtists, setNextArtists] = useState(["a", "b", "c"]);
 
 	const getPartyPhotos = () => {
 		fetch(
@@ -35,7 +34,7 @@ function App() {
 						/>
 						<Route
 							path="/comingup"
-							render={() => <ComingNext nextArtists={nextArtists} />}
+							render={() => <ComingNext />}
 						/>
 
 						<Route exact path="/" component={LandingPage} />

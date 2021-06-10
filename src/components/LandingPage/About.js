@@ -1,5 +1,4 @@
 import "./About.css";
-import {useSpring, animated } from "react-spring";
 
 const About = () => {
 
