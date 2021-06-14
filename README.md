@@ -1,12 +1,22 @@
+
+## On Mars, the party never stops! Come see what the two rovers, Ginny and Percy, are up to!
+
+  <p align="center">
+    <a href="https://spacecoachella.netlify.app" />View Demo</a>
+    ·
+    <a href="https://github.com/anca2196/Space-Coachella/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/anca2196/Space-Coachella/issues">Request Feature</a>
+  </p>
+</p>
+
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -17,20 +27,13 @@
 
 ![Product Name Screen Shot](src/assets/Poster.png)
 
-The party never stops on Mars! Come see what the two rovers, Ginny and Percy, are up to!
 
 <!-- PROJECT LOGO -->
-<br />
-    <p> *** 🥉 Third place winner in the Wild Code School Hackathon 🥉 *** </p>
-    <a href="https://www.wildcodeschool.com/en-GB"><p> Wild Code School</p></a>
 
+### *** 🥉 Third place winner in the [Wild Code School](https://www.wildcodeschool.com/en-GB) Hackathon 🥉 *** 
 
+Built during a 24 hour hackathon using React, HTML/CSS and Javascript
 
-
-### Built With
-
-
-* [React](https://reactjs.org/)
 
  <!-- CONTRIBUTING -->
 ## Contributing

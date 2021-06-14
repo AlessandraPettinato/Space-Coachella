@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./ImageSlider.css"
-import PercyParty from "./../assets/PercyParty.svg"
+import PercyParty from "./../../assets/PercyParty.svg"
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 const ImageSlider = ({partyPhotos}) => {
